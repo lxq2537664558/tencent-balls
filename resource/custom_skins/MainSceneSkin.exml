@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg_" source="home_BG_jpg" x="0" width="1280" percentHeight="100" fillMode="scale" y="1"/>
+	<e:Group id="playerInfo_" width="363" height="86" x="1" top="2" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="home_touxiang_bj_png" x="0" y="-2" anchorOffsetX="0" anchorOffsetY="0" height="85" scale9Grid="80, 0, 58, 6" width="409"/>
+		<e:Image id="playerPic_" width="60" height="60" x="12" y="4"/>
+		<e:Image source="home_touxiangkuang_png" x="5" y="-3" width="76" height="76" scale9Grid="9, 9, 6, 6"/>
+		<e:Image source="image_qizhi_png" x="-1" y="53" width="84" height="72"/>
+		<e:Label id="playerName_" text="活好技术高" x="86" y="9" width="294" size="22" bold="true"/>
+		<e:Label id="lvRate_" text="99/100" x="158" y="27" size="15" width="140" height="17" stroke="1" strokeColor="0x02365e" textColor="0x5fcee9" textAlign="right" verticalAlign="middle"/>
+		<e:Image id="lvProgressBg_" source="home_jindu_xia_png" x="152" y="43" width="150" height="14" scale9Grid="5, 5, 2, 2"/>
+		<e:Image source="player_LV1_png" x="23" y="66" width="38" height="38"/>
+		<e:Image id="lvProgress_" source="home_jindu_shang_png" x="155" y="45" width="145" scale9Grid="4, 4, 2, 2"/>
+		<e:Label id="badageLabel_" text="x10" x="32" y="92" width="38" size="12" backgroundColor="0x003e71" strokeColor="0x003e71" stroke="2" textColor="0xffffff" bold="true" border="false" textAlign="center"/>
+		<e:Image source="mainmenu_nameInfoBg_png" x="-3" y="0" width="247" height="61" alpha="0"/>
+		<e:Label text="等级" x="86" y="37" bold="true" size="15" width="43"/>
+		<e:Label id="playerLv_" text="30" x="123" y="37" bold="true" size="15" width="43" textColor="0xffd100"/>
+	</e:Group>
+	<e:Group id="Setting_" width="175" height="44" x="884.67" y="7.67" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Button id="mailBtn_" label="" x="15" y="3" width="36" height="36" scaleX="1" scaleY="1" skinName="MailSkin"/>
+	</e:Group>
+	<e:Group id="playerMoney" width="317" height="64" x="548" y="-5" touchEnabled="false">
+		<e:Image source="home_btn_BJ_png" x="22" y="20" scaleX="1" scaleY="1" width="130" scale9Grid="8, 7, 12, 14"/>
+		<e:Image source="home_btn_BJ_png" x="182" y="20" scaleX="1" scaleY="1" scale9Grid="10, 7, 6, 14" width="130"/>
+		<e:Image source="home_jinbi_png" x="0" y="14"/>
+		<e:Image source="home_caibei_png" x="157" y="14"/>
+		<e:Label id="goldNum_" text="999999" x="29" y="26" size="24" bold="true" width="116" textAlign="center"/>
+		<e:Label id="ticketNum_" text="999999" x="192" y="26" size="24" bold="true" width="116" textAlign="center"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="Setting" width="175" height="44" x="884.67" y="7.67">
+		<e:Image source="home_gongneng_bg_png" scaleX="1" scaleY="1" width="175" height="44" scale9Grid="21, 20, 7, 9"/>
+		<e:Image source="home_fengexian_png" x="63" width="2" height="30" scale9Grid="0, 0, 2, 8" anchorOffsetX="0" verticalCenter="0"/>
+		<e:Image source="home_fengexian_png" x="115" width="2" height="30" scale9Grid="0, 0, 2, 8" anchorOffsetX="0" verticalCenter="0"/>
+		<e:Button id="setting_" label="" x="72" y="3" width="36" height="36" skinName="SettingSkin"/>
+		<e:Image id="wifi_1_" source="wifi_3_png" x="122" y="3" width="40" height="36" touchEnabled="false"/>
+		<e:Image id="wifi_2_" source="wifi_3_png" x="112" y="-10" width="64" height="75" alpha="0"/>
+		<e:Image id="mailRedDot_" source="common_pointTips_png" x="5" y="2" width="22" height="22"/>
+	</e:Group>
+	<e:Group id="battleMode" width="400" height="400" x="625.67" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+		<e:Image id="singleBtn_" source="home_danren_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="teamBtn_" source="home_zudui_png" x="0" y="205.19"/>
+	</e:Group>
+	<e:Group id="Skin" width="400" height="300" x="231.67" verticalCenter="53">
+		<e:Image id="ballShadow_" source="common_touying_png" x="132" y="262" scaleX="1" scaleY="1" width="164" height="52" anchorOffsetX="82" anchorOffsetY="26"/>
+		<e:Group id="ballAndRing" width="100" height="100" x="0" y="0">
+			<e:Image id="ring_" width="320" height="320" x="128" y="128" anchorOffsetX="160" anchorOffsetY="160"/>
+			<e:Image id="ball_" width="256" height="256" x="0" y="0"/>
+		</e:Group>
+		<e:Image id="spore_" width="130" height="130" x="0" y="256" scaleX="0.6" scaleY="0.6" anchorOffsetX="65" anchorOffsetY="65"/>
+	</e:Group>
+	<e:Group id="NetContain" width="200" height="200" x="979" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="netBg_" source="zd_infoBg02_03_png" x="0" y="0" width="100%" height="100%" scale9Grid="12, 10, 6, 2"/>
+		<e:Image source="toolbar_wifi_1_png" x="5" width="26" height="21" y="0"/>
+		<e:Label text="3000ms" x="31" y="0" size="22" textColor="0x6dff96" width="80" textAlign="center"/>
+	</e:Group>
+	<e:Group id="RightSideMenu" width="85" height="370" y="150" right="0">
+		<e:List id="rightSideMenuList_" width="85" height="370" x="-1079" y="136" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" itemRendererSkinName="RightSideMenuSingleSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="BottomSideMenu" width="470" height="80" bottom="0" right="100">
+		<e:Image source="home_gongneng_bg_png" x="-646" y="-485" scaleX="1" scaleY="1" scale9Grid="19, 20, 11, 9" bottom="0" left="0" right="0" top="0"/>
+		<e:Image source="home_biaoqian_png" x="118" y="154" left="0" top="0"/>
+		<e:Image source="home_fengexian_png" x="173" height="40" scale9Grid="0, 0, 2, 8" verticalCenter="0"/>
+		<e:List id="bottomSideMenuList_" width="388" height="80" horizontalCenter="0" verticalCenter="0" itemRendererSkinName="BottomSideMenuSingleSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Image id="redFoxBtn_" source="home_npc_png" x="39" y="220" bottom="0" right="0" touchEnabled="true"/>
+	<e:Group id="rankBoard_" width="87" height="431" x="4" y="134">
+		<e:Image source="mainmenu_leaderboardBg_png" x="-13" y="5" scaleX="1" scaleY="1" height="457" scale9Grid="0, 35, 125, 15" width="106"/>
+		<e:Image source="paihangbang_png" x="10" y="25" width="63" height="21"/>
+		<e:Group id="rankEntryGroup_" width="85" height="375" x="0" y="50"/>
+		<e:Image id="recommendBtn_" width="20" height="20" x="184" y="142" bottom="0" left="0" maxHeight="130" maxWidth="100" touchEnabled="false"/>
+		<e:Image id="aiwanBtn_" width="20" height="20" x="164" y="149" bottom="0" left="0" maxHeight="106" maxWidth="106" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

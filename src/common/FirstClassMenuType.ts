@@ -1,0 +1,39 @@
+class FirstClassMenuType {
+    public static readonly Sign: number = 1;
+    public static readonly Activity: number = 2;
+    public static readonly Invite: number = 3;
+    public static readonly Carnival: number = 4;
+    public static readonly Survay: number = 5;
+    public static readonly Shop: number = 6;
+    public static readonly Elf: number = 7;
+    public static readonly Treasure: number = 8;
+    public static readonly Strategy: number = 9;
+    public static readonly Witness: number = 10;
+    public static readonly Achieve: number = 11;
+    public static readonly Social: number = 12;
+    public static readonly Growup: number = 13;
+    public static readonly ExchangeGroup: number = 14;
+    public static readonly GameCircle: number = 15;
+    public static readonly SendDesktop: number = 16;
+    public static readonly Gift: number = 17;
+    public static readonly Rank: number = 18;
+}
+
+FirstClassMenuType[FirstClassMenuType.Sign.toString()] = "Sign";
+FirstClassMenuType[FirstClassMenuType.Activity.toString()] = "Activity";
+FirstClassMenuType[FirstClassMenuType.Invite.toString()] = "Invite";
+FirstClassMenuType[FirstClassMenuType.Carnival.toString()] = "Carnival";
+FirstClassMenuType[FirstClassMenuType.Survay.toString()] = "Survay";
+FirstClassMenuType[FirstClassMenuType.Shop.toString()] = "Shop";
+FirstClassMenuType[FirstClassMenuType.Elf.toString()] = "Elf";
+FirstClassMenuType[FirstClassMenuType.Treasure.toString()] = "Treasure";
+FirstClassMenuType[FirstClassMenuType.Strategy.toString()] = "Strategy";
+FirstClassMenuType[FirstClassMenuType.Witness.toString()] = "Witness";
+FirstClassMenuType[FirstClassMenuType.Achieve.toString()] = "Achieve";
+FirstClassMenuType[FirstClassMenuType.Social.toString()] = "Social";
+FirstClassMenuType[FirstClassMenuType.Growup.toString()] = "Growup";
+FirstClassMenuType[FirstClassMenuType.ExchangeGroup.toString()] = "ExchangeGroup";
+FirstClassMenuType[FirstClassMenuType.GameCircle.toString()] = "GameCircle";
+FirstClassMenuType[FirstClassMenuType.SendDesktop.toString()] = "SendDesktop";
+FirstClassMenuType[FirstClassMenuType.Gift.toString()] = "Gift";
+FirstClassMenuType[FirstClassMenuType.Rank.toString()] = "Rank";

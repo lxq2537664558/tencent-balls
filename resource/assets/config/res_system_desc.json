@@ -1,0 +1,28 @@
+{
+  "SystemDesc": {
+    "2": {
+      "id": "2",
+      "name": "成就",
+      "icon": "xgn_chengjiu",
+      "unlock_level": "3"
+    },
+    "3": {
+      "id": "3",
+      "name": "签到",
+      "icon": "xgn_qiandao",
+      "unlock_level": "3"
+    },
+    "4": {
+      "id": "4",
+      "name": "2人模式",
+      "icon": "xgn_2renzudui",
+      "unlock_level": "1"
+    },
+    "8": {
+      "id": "8",
+      "name": "排位赛",
+      "icon": "xgn_jingling",
+      "unlock_level": "1"
+    }
+  }
+}

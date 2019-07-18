@@ -1,0 +1,54 @@
+{
+  "ActivePointReward": {
+    "1": {
+      "id": "1",
+      "active_point": "20",
+      "reward_id_1": "2000001",
+      "reward_num_1": "100",
+      "reward_id_2": "0",
+      "reward_num_2": "0",
+      "reward_id_3": "0",
+      "reward_num_3": "0"
+    },
+    "2": {
+      "id": "2",
+      "active_point": "30",
+      "reward_id_1": "2000001",
+      "reward_num_1": "150",
+      "reward_id_2": "0",
+      "reward_num_2": "0",
+      "reward_id_3": "0",
+      "reward_num_3": "0"
+    },
+    "3": {
+      "id": "3",
+      "active_point": "50",
+      "reward_id_1": "2000001",
+      "reward_num_1": "200",
+      "reward_id_2": "0",
+      "reward_num_2": "0",
+      "reward_id_3": "0",
+      "reward_num_3": "0"
+    },
+    "4": {
+      "id": "4",
+      "active_point": "60",
+      "reward_id_1": "2000001",
+      "reward_num_1": "250",
+      "reward_id_2": "0",
+      "reward_num_2": "0",
+      "reward_id_3": "0",
+      "reward_num_3": "0"
+    },
+    "5": {
+      "id": "5",
+      "active_point": "80",
+      "reward_id_1": "2000001",
+      "reward_num_1": "300",
+      "reward_id_2": "0",
+      "reward_num_2": "0",
+      "reward_id_3": "0",
+      "reward_num_3": "0"
+    }
+  }
+}

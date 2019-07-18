@@ -1,0 +1,1984 @@
+{
+  "NotifyInfo": {
+    "10001": {
+      "id": "10001",
+      "content": "花费{1}钻石购买{2}体力？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "10002": {
+      "id": "10002",
+      "content": "钻石不足，是否立刻充值？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=充值,Cancel=取消"
+    },
+    "10003": {
+      "id": "10003",
+      "content": "体力不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "10004": {
+      "id": "10004",
+      "content": "钻石不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "10005": {
+      "id": "10005",
+      "content": "服务器错误提示信息文本",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "10006": {
+      "id": "10006",
+      "content": "服务器忙提示信息",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=重试"
+    },
+    "20001": {
+      "id": "20001",
+      "content": "已发送邀请",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "20002": {
+      "id": "20002",
+      "content": "功能暂未开放",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1001": {
+      "id": "1001",
+      "content": "是否退出到登陆界面?",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1002": {
+      "id": "1002",
+      "content": "钻石不足，是否进入购买？",
+      "type": "1",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1003": {
+      "id": "1003",
+      "content": "体力不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1004": {
+      "id": "1004",
+      "content": "花费{1}钻石，立即重置？",
+      "type": "1",
+      "param1": "",
+      "param2": "",
+      "param3": "yes",
+      "param4": "Ok=重置,Cancel=取消"
+    },
+    "1005": {
+      "id": "1005",
+      "content": "花费{1}钻石，增加挑战次数{2}次？",
+      "type": "1",
+      "param1": "",
+      "param2": "",
+      "param3": "yes",
+      "param4": ""
+    },
+    "1006": {
+      "id": "1006",
+      "content": "挑战冷却中",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1007": {
+      "id": "1007",
+      "content": "今日挑战次数已用尽",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1008": {
+      "id": "1008",
+      "content": "挑战时间已重置",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1009": {
+      "id": "1009",
+      "content": "购买挑战次数成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1010": {
+      "id": "1010",
+      "content": "金币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1011": {
+      "id": "1011",
+      "content": "金币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1012": {
+      "id": "1012",
+      "content": "金币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1013": {
+      "id": "1013",
+      "content": "金币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1014": {
+      "id": "1014",
+      "content": "升级成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1015": {
+      "id": "1015",
+      "content": "全部装备升级成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1016": {
+      "id": "1016",
+      "content": "金币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1017": {
+      "id": "1017",
+      "content": "所需材料不足，点击道具图标收集材料",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1018": {
+      "id": "1018",
+      "content": "当前英雄等级不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1019": {
+      "id": "1019",
+      "content": "合成成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1020": {
+      "id": "1020",
+      "content": "装备进化成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1021": {
+      "id": "1021",
+      "content": "需要装备全部进化到下一品质",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1022": {
+      "id": "1022",
+      "content": "确定要重置吗？",
+      "type": "1",
+      "param1": "",
+      "param2": "",
+      "param3": "Yes",
+      "param4": ""
+    },
+    "1023": {
+      "id": "1023",
+      "content": "今日重置次数已用尽",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1024": {
+      "id": "1024",
+      "content": "当前阵容未满员\n是否保存修改？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=保存,Cancel=取消"
+    },
+    "1025": {
+      "id": "1025",
+      "content": "当前阵容未保存\n是否放弃修改？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1026": {
+      "id": "1026",
+      "content": "出战阵容不能为空",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1027": {
+      "id": "1027",
+      "content": "今日技能点购买次数已用尽",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1028": {
+      "id": "1028",
+      "content": "钻石不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1029": {
+      "id": "1029",
+      "content": "今日扫荡次数已用尽",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1030": {
+      "id": "1030",
+      "content": "修改昵称成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1031": {
+      "id": "1031",
+      "content": "用户名已存在",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1032": {
+      "id": "1032",
+      "content": "花费{1}血战币复活该英雄？",
+      "type": "1",
+      "param1": "",
+      "param2": "",
+      "param3": "Yes",
+      "param4": ""
+    },
+    "1033": {
+      "id": "1033",
+      "content": "血战币不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1034": {
+      "id": "1034",
+      "content": "出战阵容已满",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1035": {
+      "id": "1035",
+      "content": "领取成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1036": {
+      "id": "1036",
+      "content": "商品已售罄",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1037": {
+      "id": "1037",
+      "content": "副本数据错误",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1038": {
+      "id": "1038",
+      "content": "商品已过期",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1039": {
+      "id": "1039",
+      "content": "英雄等级不能超过团队等级",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1040": {
+      "id": "1040",
+      "content": "服务器忙，请重试",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1041": {
+      "id": "1041",
+      "content": "副本挑战次数已达到上限",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1042": {
+      "id": "1042",
+      "content": "体力不足，无法挑战",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1043": {
+      "id": "1043",
+      "content": "出战阵容不能为空",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1044": {
+      "id": "1044",
+      "content": "召唤师{1}级才能进入该难度",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1045": {
+      "id": "1045",
+      "content": "未指定发送对象",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1046": {
+      "id": "1046",
+      "content": "发送消息不能为空",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1047": {
+      "id": "1047",
+      "content": "体力购买次数不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1048": {
+      "id": "1048",
+      "content": "体力已满",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1049": {
+      "id": "1049",
+      "content": "钻石不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1050": {
+      "id": "1050",
+      "content": "发送消息频繁，休息下再发吧",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1051": {
+      "id": "1051",
+      "content": "对方已经离线",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1052": {
+      "id": "1052",
+      "content": "今日使用点金手次数已达上限，\n提升VIP等级可获得更多次数。",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=查看特权,Cancel=取消"
+    },
+    "1053": {
+      "id": "1053",
+      "content": "钻石不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1054": {
+      "id": "1054",
+      "content": "花费{1}金币召唤新英雄，是否继续？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1055": {
+      "id": "1055",
+      "content": "花费{1}金币提升星级，是否继续？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1056": {
+      "id": "1056",
+      "content": "所有装备成功进化，可以进行英雄突破，\n需要花费{1}金币，是否继续？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1057": {
+      "id": "1057",
+      "content": "需要花费{1}钻石购买{2}点技能点，是否继续？\n（今日已购买{3}次）",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1058": {
+      "id": "1058",
+      "content": "服务器数据错误，点击'返回'按钮直接返回主界面",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "1059": {
+      "id": "1059",
+      "content": "至少需要有1个连招1英雄和1个连招2英雄",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1060": {
+      "id": "1060",
+      "content": "是否放弃能量绑定修改？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1061": {
+      "id": "1061",
+      "content": "至少选择1个连招1英雄",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1062": {
+      "id": "1062",
+      "content": "至少选择1个连招2英雄",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1063": {
+      "id": "1063",
+      "content": "当前已在组队匹配队列，取消后将无法进入组队玩法，\n确定要取消匹配？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=取消匹配,Cancel=返回"
+    },
+    "1064": {
+      "id": "1064",
+      "content": "请选择出战英雄",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": "Ok=确定"
+    },
+    "1065": {
+      "id": "1065",
+      "content": "当前阵容未满，确认后无法更换，\n确定要这样参战吗？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1066": {
+      "id": "1066",
+      "content": "队伍中有玩家未选择英雄，已重新开始匹配",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1067": {
+      "id": "1067",
+      "content": "未在规定时间内选择英雄，你已被强制退出匹配",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=重新匹配,Cancel=返回"
+    },
+    "1068": {
+      "id": "1068",
+      "content": "请选择位置",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1069": {
+      "id": "1069",
+      "content": "通关上一章",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1081": {
+      "id": "1081",
+      "content": "邮箱中没有邮件哦",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1082": {
+      "id": "1082",
+      "content": "已完美通关该关卡",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1083": {
+      "id": "1083",
+      "content": "该关卡未解锁",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1084": {
+      "id": "1084",
+      "content": "是否花费{1}钻石重置？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=购买,Cancel=取消"
+    },
+    "1085": {
+      "id": "1085",
+      "content": "该道具数量已经接近上限，超出部分无法获得，\n是否继续领取？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1086": {
+      "id": "1086",
+      "content": "血战到底额外奖励{1}%！",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1087": {
+      "id": "1087",
+      "content": "天宫结界额外奖励{1}%！",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1088": {
+      "id": "1088",
+      "content": "战队{1}级解锁",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1089": {
+      "id": "1089",
+      "content": "服务器维护中，请稍后重试",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1090": {
+      "id": "1090",
+      "content": "{1}，返回副本选择列表",
+      "type": "1",
+      "param1": "OK",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定"
+    },
+    "1091": {
+      "id": "1091",
+      "content": "是否重新进入匹配？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1092": {
+      "id": "1092",
+      "content": "成功购买{1}钻石{2}",
+      "type": "1",
+      "param1": "OK",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1093": {
+      "id": "1093",
+      "content": "刷新商品内容需要消耗{1}{2}，是否继续？\n（今天已刷新{3}次）",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1094": {
+      "id": "1094",
+      "content": "该经验道具用完",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1099": {
+      "id": "1099",
+      "content": "授权失败，请稍后重试",
+      "type": "1",
+      "param1": "OK",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定"
+    },
+    "1070": {
+      "id": "1070",
+      "content": "今日领取体力已到上限",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1071": {
+      "id": "1071",
+      "content": "是否删除好友？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1072": {
+      "id": "1072",
+      "content": "领取成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1073": {
+      "id": "1073",
+      "content": "赠送成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1074": {
+      "id": "1074",
+      "content": "你已经向所有的{1}好友赠送体力",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1075": {
+      "id": "1075",
+      "content": "请输入玩家昵称",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1076": {
+      "id": "1076",
+      "content": "未找到该昵称的玩家",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1077": {
+      "id": "1077",
+      "content": "已发送好友申请",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1078": {
+      "id": "1078",
+      "content": "今日赠送体力已到上限",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1079": {
+      "id": "1079",
+      "content": "已向该好友赠送体力",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1080": {
+      "id": "1080",
+      "content": "该玩家已经是你的好友,不能添加",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1095": {
+      "id": "1095",
+      "content": "您的好友上限已满，无法继续添加好友",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1096": {
+      "id": "1096",
+      "content": "该玩家已经是您的仇人,不能添加",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1097": {
+      "id": "1097",
+      "content": "成功删除该好友",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1098": {
+      "id": "1098",
+      "content": "成功删除该仇人",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1100": {
+      "id": "1100",
+      "content": "不能添加自己为好友",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1101": {
+      "id": "1101",
+      "content": "好友申请发送重复，等待对方添加",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1102": {
+      "id": "1102",
+      "content": "不能添加自己为仇人",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1103": {
+      "id": "1103",
+      "content": "您的仇人上限已满，无法继续添加",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1104": {
+      "id": "1104",
+      "content": "暂无可领取体力",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1105": {
+      "id": "1105",
+      "content": "是否删除仇人？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "1106": {
+      "id": "1106",
+      "content": "好友赠送次数不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1107": {
+      "id": "1107",
+      "content": "对方好友上限已满",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "1108": {
+      "id": "1108",
+      "content": "本区未找到该名称玩家",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2002": {
+      "id": "2002",
+      "content": "成功加入战队",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2003": {
+      "id": "2003",
+      "content": "创建成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2004": {
+      "id": "2004",
+      "content": "需要玩家等级{1}级",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2005": {
+      "id": "2005",
+      "content": "战队名称不能为空",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2006": {
+      "id": "2006",
+      "content": "暂时无法找到适合的战队，请尝试发送战队申请\n",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2007": {
+      "id": "2007",
+      "content": "已通过申请",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2008": {
+      "id": "2008",
+      "content": "邮件已发送",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2009": {
+      "id": "2009",
+      "content": "需要转让队长才可退出战队",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2010": {
+      "id": "2010",
+      "content": "已退出战队",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2011": {
+      "id": "2011",
+      "content": "已经在队伍中，无法进入！",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2012": {
+      "id": "2012",
+      "content": "正在随机匹配中，是否取消匹配？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2013": {
+      "id": "2013",
+      "content": "情义符数量不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2014": {
+      "id": "2014",
+      "content": "战队名称最多{1}个字",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2015": {
+      "id": "2015",
+      "content": "邮件标题不能为空",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2016": {
+      "id": "2016",
+      "content": "邮件内容不能为空",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2017": {
+      "id": "2017",
+      "content": "是否要屏蔽此人的聊天消息\n（下次重新登录后，屏蔽失效）",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2018": {
+      "id": "2018",
+      "content": "没有搜索到战队",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=返回"
+    },
+    "2019": {
+      "id": "2019",
+      "content": "您没有加入任何队伍，无法在队伍频道聊天",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2020": {
+      "id": "2020",
+      "content": "您没有加入任何战队，无法在战队频道聊天",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2021": {
+      "id": "2021",
+      "content": "当日免费世界聊天次数已经用完，每条消息需要花费{1}钻石，是否继续？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2022": {
+      "id": "2022",
+      "content": "英雄全部阵亡，无法协助队友",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2023": {
+      "id": "2023",
+      "content": "征途{1}级开启",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2024": {
+      "id": "2024",
+      "content": "对方不在线，不能私聊哦",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2025": {
+      "id": "2025",
+      "content": "连接选区服务器失败，请稍后重试",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2026": {
+      "id": "2026",
+      "content": "数据拉取失败，请重试",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=重试,Cancel=退出"
+    },
+    "2027": {
+      "id": "2027",
+      "content": "本章宝箱已领取完毕",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2028": {
+      "id": "2028",
+      "content": "亲,要努力打星星哦",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2029": {
+      "id": "2029",
+      "content": "活动还未开启",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2030": {
+      "id": "2030",
+      "content": "建筑已达最大等级",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2031": {
+      "id": "2031",
+      "content": "团队等级不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2032": {
+      "id": "2032",
+      "content": "需要灵石不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2033": {
+      "id": "2033",
+      "content": "该区维护中，请稍后重试",
+      "type": "1",
+      "param1": "OK",
+      "param2": "OK",
+      "param3": "Yes",
+      "param4": "Ok=确定"
+    },
+    "2034": {
+      "id": "2034",
+      "content": "亲，你还没加入战队呢",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2035": {
+      "id": "2035",
+      "content": "暂未开启",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2036": {
+      "id": "2036",
+      "content": "能量同步自动配置：{1}-{2}",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2037": {
+      "id": "2037",
+      "content": "连接战斗服出错，即将退出战斗",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2038": {
+      "id": "2038",
+      "content": "战斗输入参数错误，请重试",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2039": {
+      "id": "2039",
+      "content": "结算数据同步失败，退回章节界面重试",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2040": {
+      "id": "2040",
+      "content": "{1}离开队伍",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2041": {
+      "id": "2041",
+      "content": "{1}加入队伍",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2042": {
+      "id": "2042",
+      "content": "{1}掉线",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2043": {
+      "id": "2043",
+      "content": "{1}成为队长",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2044": {
+      "id": "2044",
+      "content": "您已成为队长！请前往指挥大局~",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2045": {
+      "id": "2045",
+      "content": "您已被请离队伍",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2046": {
+      "id": "2046",
+      "content": "邀请失效，无法加入队伍",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2047": {
+      "id": "2047",
+      "content": "对方正在匹配中，当前无法加入队伍",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2048": {
+      "id": "2048",
+      "content": "VIP1开启自动战斗\n（活动期间召唤师20级免费获得VIP1)",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2049": {
+      "id": "2049",
+      "content": "确定转让队长吗？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2050": {
+      "id": "2050",
+      "content": "平台授权信息失效，请重新登录平台更新授权",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2051": {
+      "id": "2051",
+      "content": "平台授权信息失效，可以尝试重新登录平台更新授权",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2052": {
+      "id": "2052",
+      "content": "平台授权信息失效，可以尝试重新登录平台更新授权",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2053": {
+      "id": "2053",
+      "content": "不能输入特殊字符",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2054": {
+      "id": "2054",
+      "content": "用户名非法",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2055": {
+      "id": "2055",
+      "content": "发送消息不能为空",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2056": {
+      "id": "2056",
+      "content": "发送过于频繁，请{1}秒后重试",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2057": {
+      "id": "2057",
+      "content": "确定花费{1}钻石立即解锁或开启？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2058": {
+      "id": "2058",
+      "content": "碎片不足，无法打开王者宝箱，通过战队赛活动可获得宝箱碎片",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2059": {
+      "id": "2059",
+      "content": "钻石不足，无法开启宝箱",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2060": {
+      "id": "2060",
+      "content": "已有宝箱正在解锁中",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2061": {
+      "id": "2061",
+      "content": "当前球球无法进化",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2062": {
+      "id": "2062",
+      "content": "录音时间过短",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2063": {
+      "id": "2063",
+      "content": "材料不够，无法合成",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2064": {
+      "id": "2064",
+      "content": "最多可置顶{1}条留言",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2065": {
+      "id": "2065",
+      "content": "已取消置顶",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2066": {
+      "id": "2066",
+      "content": "是否退出登录？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2067": {
+      "id": "2067",
+      "content": "金币不够，无法合成",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "60001": {
+      "id": "60001",
+      "content": "战队无法找到",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "60002": {
+      "id": "60002",
+      "content": "等待队长审批",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "70001": {
+      "id": "70001",
+      "content": "入场券不足",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "80001": {
+      "id": "80001",
+      "content": "对方邀请队列已满",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "80002": {
+      "id": "80002",
+      "content": "对方正在匹配中",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "70002": {
+      "id": "70002",
+      "content": "战斗已结束",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2068": {
+      "id": "2068",
+      "content": "碎片不足，无法打开远征宝箱，通过活动，成就可获得宝箱碎片",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2069": {
+      "id": "2069",
+      "content": "您的宝箱已满，无法获得宝箱",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2070": {
+      "id": "2070",
+      "content": "玩家等级{1}可解锁",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2071": {
+      "id": "2071",
+      "content": "是否退出战队？",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2072": {
+      "id": "2072",
+      "content": "二维码已经过期了",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2073": {
+      "id": "2073",
+      "content": "不要重复扫啦，换一个试试吧~~",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2074": {
+      "id": "2074",
+      "content": "今天已经领取过了哦~~",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2075": {
+      "id": "2075",
+      "content": "没有当前奖品",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2076": {
+      "id": "2076",
+      "content": "领取失败",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2077": {
+      "id": "2077",
+      "content": "许愿失败",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2078": {
+      "id": "2078",
+      "content": "是否领取当前奖励，不再更换?",
+      "type": "1",
+      "param1": "okcancel",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定,Cancel=取消"
+    },
+    "2079": {
+      "id": "2079",
+      "content": "战队人数已满，无法邀请",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2080": {
+      "id": "2080",
+      "content": "战队人数已满，无法加入",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2081": {
+      "id": "2081",
+      "content": "二维码不合法",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2082": {
+      "id": "2082",
+      "content": "请先选择明天想要获得的奖励哦~~",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2083": {
+      "id": "2083",
+      "content": "输入的频道不合法",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2084": {
+      "id": "2084",
+      "content": "{1}已经离线",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2085": {
+      "id": "2085",
+      "content": "{1}已经离开战斗",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2086": {
+      "id": "2086",
+      "content": "{1}进入战斗",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2087": {
+      "id": "2087",
+      "content": "只能发送{1}字哦~",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2088": {
+      "id": "2088",
+      "content": "举报成功",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2089": {
+      "id": "2089",
+      "content": "扫描自己的二维码无效",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2090": {
+      "id": "2090",
+      "content": "战队未找到",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2091": {
+      "id": "2091",
+      "content": "大厅网络等待中......",
+      "type": "2",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2092": {
+      "id": "2092",
+      "content": "战斗网络等待中......",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2093": {
+      "id": "2093",
+      "content": "战斗网络重连中......",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2094": {
+      "id": "2094",
+      "content": "大厅网络重连中......",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2095": {
+      "id": "2095",
+      "content": "匹配中......",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2096": {
+      "id": "2096",
+      "content": "排位赛规则描述",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    },
+    "2097": {
+      "id": "2097",
+      "content": "您已连续游戏{1}小时，请注意休息哦",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2098": {
+      "id": "2098",
+      "content": "您已累计游戏{1}小时，请注意休息哦",
+      "type": "1",
+      "param1": "ok",
+      "param2": "ok",
+      "param3": "yes",
+      "param4": "Ok=确定"
+    },
+    "2099": {
+      "id": "2099",
+      "content": "星贝数量不足，无法购买",
+      "type": "2",
+      "param1": "",
+      "param2": "",
+      "param3": "",
+      "param4": ""
+    }
+  }
+}

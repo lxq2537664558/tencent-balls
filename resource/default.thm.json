@@ -1,0 +1,28 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/custom_skins/battle/BattleUISkin.exml",
+		"resource/custom_skins/item_renderer/main_ui/BottomSideMenuSingleSkin.exml",
+		"resource/custom_skins/item_renderer/main_ui/RightSideMenuSingleSkin.exml",
+		"resource/custom_skins/item_renderer/main_ui/TopSideMenuSingleSkin.exml",
+		"resource/custom_skins/LoadingSkin.exml",
+		"resource/custom_skins/MailSkin.exml",
+		"resource/custom_skins/SettingSkin.exml",
+		"resource/custom_skins/MainSceneSkin.exml",
+		"resource/eui_skins/ButtonSkin.exml",
+		"resource/eui_skins/CheckBoxSkin.exml",
+		"resource/eui_skins/HScrollBarSkin.exml",
+		"resource/eui_skins/HSliderSkin.exml",
+		"resource/eui_skins/ItemRendererSkin.exml",
+		"resource/eui_skins/PanelSkin.exml",
+		"resource/eui_skins/ProgressBarSkin.exml",
+		"resource/eui_skins/RadioButtonSkin.exml",
+		"resource/eui_skins/ScrollerSkin.exml",
+		"resource/eui_skins/TextInputSkin.exml",
+		"resource/eui_skins/ToggleSwitchSkin.exml",
+		"resource/eui_skins/VScrollBarSkin.exml",
+		"resource/eui_skins/VSliderSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

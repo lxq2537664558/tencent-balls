@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopSideMenuSingleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon_" source="qiandao_png" width="80" height="80"/>
+	<e:Image id="redDot_" source="sj_newMessage_png" x="-2.75" y="-1" width="18" height="18"/>
+	<e:Group id="giftGroup_" width="84" height="74" x="42" y="37" anchorOffsetX="42" anchorOffsetY="37">
+		<e:Image id="iconOnly_" source="btn_liwu_png" x="0" y="-9" scaleX="1" scaleY="1" width="80" height="80"/>
+		<e:Image id="iconNum_" source="common_pointTips_png" x="-5" y="-5" width="37" height="37"/>
+		<e:Label id="count_" text="99" x="-1" bold="true" verticalAlign="middle" textAlign="center" textColor="0xffffff" width="29" height="26" size="21"/>
+	</e:Group>
+	<e:Image id="iconText_" source="txt_liwu_png" x="6" y="49" width="66" height="32"/>
+</e:Skin>

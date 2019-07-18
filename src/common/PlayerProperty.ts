@@ -1,0 +1,15 @@
+enum PlayerProperty {
+    UserHead = 1000,
+    UserSign,
+    SelfDesc,
+    NickName,
+    Sex,
+    Age,
+    Constellation,
+    Region,
+    Stars,
+    TotalWin,
+    TotalRound,
+    TotalEat,
+    TotalMVP,
+}

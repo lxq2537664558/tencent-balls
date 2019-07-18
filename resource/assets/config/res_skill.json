@@ -1,0 +1,102 @@
+{
+  "Skill": {
+    "10001": {
+      "id": "10001",
+      "name": "炸弹",
+      "skin": "1140010",
+      "release_skill": "boom_emission_01",
+      "hit_skill": "",
+      "type": "1",
+      "cd_time": "10000",
+      "use_times": "0",
+      "need_dir": "1",
+      "cost_desc": "消耗：自身30%",
+      "buff": "1:2:8",
+      "buff_param": "1000:500:2000"
+    },
+    "10002": {
+      "id": "10002",
+      "name": "射击",
+      "skin": "1140020",
+      "release_skill": "shoot_emission_01",
+      "hit_skill": "shoot_hit_01",
+      "type": "1",
+      "cd_time": "500",
+      "use_times": "0",
+      "need_dir": "1",
+      "cost_desc": "消耗：7积分",
+      "buff": "3:8",
+      "buff_param": "0:1000"
+    },
+    "10003": {
+      "id": "10003",
+      "name": "共享",
+      "skin": "1140030",
+      "release_skill": "",
+      "hit_skill": "",
+      "type": "1",
+      "cd_time": "120000",
+      "use_times": "0",
+      "need_dir": "0",
+      "cost_desc": "消耗：无",
+      "buff": "7",
+      "buff_param": "60"
+    },
+    "10004": {
+      "id": "10004",
+      "name": "加速",
+      "skin": "1140040",
+      "release_skill": "",
+      "hit_skill": "",
+      "type": "1",
+      "cd_time": "40000",
+      "use_times": "0",
+      "need_dir": "0",
+      "cost_desc": "消耗：无",
+      "buff": "4:5",
+      "buff_param": "20|70:20"
+    },
+    "10005": {
+      "id": "10005",
+      "name": "吸收",
+      "skin": "1140050",
+      "release_skill": "",
+      "hit_skill": "",
+      "type": "2",
+      "cd_time": "0",
+      "use_times": "0",
+      "need_dir": "0",
+      "cost_desc": "消耗：无",
+      "buff": "6",
+      "buff_param": "50|120"
+    },
+    "10006": {
+      "id": "10006",
+      "name": "隐身",
+      "skin": "1140060",
+      "release_skill": "",
+      "hit_skill": "",
+      "type": "1",
+      "cd_time": "30000",
+      "use_times": "0",
+      "need_dir": "0",
+      "cost_desc": "消耗：无",
+      "buff": "5:10:11:12:15",
+      "buff_param": "15:15:5|15:15:12"
+    },
+    "10007": {
+      "id": "10007",
+      "name": "闪电",
+      "skin": "1140070",
+      "release_skill": "elect_slash_01",
+      "hit_skill": "",
+      "type": "1",
+      "cd_time": "1000",
+      "use_times": "3",
+      "need_dir": "1",
+      "cost_desc": "消耗：30积分",
+      "buff": "8:13:14:16",
+      "buff_param": "1000:800:500:0"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="home_btn_shezhi_png" width="100%" height="100%"/>
+	<e:Label id="labelDisplay" text="" x="-13" y="-11" width="65" height="85"/>
+</e:Skin>

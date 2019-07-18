@@ -1,0 +1,3 @@
+class GameFinishCommand extends SimpleCommand {
+    
+}
