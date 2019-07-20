@@ -1,9 +1,9 @@
-class StartupCommand extends MacroCommand {
+class StartupCommand extends puremvc.MacroCommand {
     constructor() {
         super();
     }
 
-    protected initializeMacroCommand(): void {
+    public initializeMacroCommand(): void {
         ConfigManager.getInstance().init();
         Language.getInstance().init();
         HeartBeatSystem.getInstance().init();
