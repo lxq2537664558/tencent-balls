@@ -103,6 +103,10 @@ class BattleBallVo {
         return pos;
     }
 
+    public destroy(): void {
+        
+    }
+
     public getScore(): number {
         return;
     }

@@ -165,6 +165,10 @@ class BattlePlayerVo {
         this.surviveData.watcher = data.watcher || 0;
     }
 
+    public destroy(): void {
+        this.reset();
+    }
+
     public reset(): void {
         this.id = 0;
         this.x = 100;

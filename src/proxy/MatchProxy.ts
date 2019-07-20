@@ -1,4 +1,4 @@
-class MatchProxy extends Proxy {
+class MatchProxy extends puremvc.Proxy {
     public static NAME: string = "MatchProxy";
     private isMatching_: boolean;
     private gameType_: number;

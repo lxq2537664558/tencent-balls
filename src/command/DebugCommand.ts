@@ -1,7 +1,7 @@
-class DebugCommand extends SimpleCommand {
+class DebugCommand extends puremvc.SimpleCommand {
     public static readonly NAME: string = "DebugCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("DebugCommand.execute:");
     }
 }

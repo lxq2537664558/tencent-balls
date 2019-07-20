@@ -1,13 +1,13 @@
-class StartNewGameCommand extends SimpleCommand {
+class StartNewGameCommand extends puremvc.SimpleCommand {
     constructor() {
         super();
     }
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         this.beforeStartGame();
         const id: number = notification.params;
-        const enterGameProxy: EnterGameProxy = <EnterGameProxy>(this.facade.retrieveProxy(EnterGameProxy.NAME));
-        const playerProxy: PlayerProxy = <PlayerProxy>(this.facade.retrieveProxy(PlayerProxy.NAME));
+        const enterGameProxy: EnterGameProxy = <EnterGameProxy>(this.facade().retrieveProxy(EnterGameProxy.NAME));
+        const playerProxy: PlayerProxy = <PlayerProxy>(this.facade().retrieveProxy(PlayerProxy.NAME));
 
         switch (id) {
             
@@ -15,7 +15,7 @@ class StartNewGameCommand extends SimpleCommand {
     }
 
     private reqStartMatch(id: number): void {
-        const proxy: MatchProxy = <MatchProxy>(this.facade.retrieveProxy(MatchProxy.NAME));
+        const proxy: MatchProxy = <MatchProxy>(this.facade().retrieveProxy(MatchProxy.NAME));
         proxy.requestStartMatch(id);
     }
 

@@ -12,7 +12,7 @@ class MacroCommand extends Notifier {
         this.subCommands_.push(command);
     }
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         for (let array: any = this.subCommands_.slice(0), i = 0, len = array.length; i < len; ++i) {
             const Ctor = array[i];
 

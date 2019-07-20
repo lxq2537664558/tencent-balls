@@ -1,4 +1,4 @@
-class PlayerProxy extends Proxy {
+class PlayerProxy extends puremvc.Proxy {
     public static NAME: string = "PlayerProxy";
 
     private propertyChangeHandler_: Dictionary;

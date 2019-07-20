@@ -12,6 +12,7 @@ class ConfigManager {
     private dropInfo_: DropInfoConfig;
     private starInfo_: StarStaticInfoConfig;
     private itemAttrInfo_: ItemAttrInfoConfig;
+    private itemResInfo_: ItemResInfoConfig;
 
     constructor() {
     }
@@ -36,6 +37,7 @@ class ConfigManager {
         this.dropInfo_ = new DropInfoConfig();
         this.starInfo_ = new StarStaticInfoConfig();
         this.itemAttrInfo_ = new ItemAttrInfoConfig();
+        this.itemResInfo_ = new ItemResInfoConfig();
     }
 
     get versionInfo() {
@@ -80,5 +82,9 @@ class ConfigManager {
 
     get itemAttrInfo() {
         return this.itemAttrInfo_;
+    }
+
+    get itemResInfo() {
+        return this.itemResInfo_;
     }
 }

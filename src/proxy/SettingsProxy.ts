@@ -1,4 +1,4 @@
-class SettingsProxy extends Proxy {
+class SettingsProxy extends puremvc.Proxy {
     public static readonly NAME: string = "SettingsProxy";
 
     private bmgEnabled_: boolean;

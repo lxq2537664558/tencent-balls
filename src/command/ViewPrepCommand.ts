@@ -1,10 +1,10 @@
-class ViewPrepCommand extends SimpleCommand {
+class ViewPrepCommand extends puremvc.SimpleCommand {
     constructor() {
         super();
     }
 
-    public execute(notification: CustomNotification): void {
-        const main: any = <Main>(notification.params);
+    public execute(notification: puremvc.INotification): void {
+        const main: any = <Main>(notification.getBody());
         const gameLayer: GameLayer = new GameLayer();
         gameLayer.name = "GameLayer";
         main.addChild(gameLayer);
@@ -15,6 +15,6 @@ class ViewPrepCommand extends SimpleCommand {
         uiLayer.name = "UILayer";
         main.addChild(uiLayer);
         uiLayer.init();
-        this.facade.registerMediator(new UIMediator(uiLayer));
+        this.facade().registerMediator(new UIMediator(uiLayer));
     }
 }

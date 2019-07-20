@@ -29,4 +29,8 @@ class BattleBallCreateFactory {
     public onDestroy(): void {
         
     }
+
+    public addUrlMark(url: string): void {
+        this.share_.addUrlMark(url);
+    }
 }

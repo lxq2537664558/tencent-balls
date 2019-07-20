@@ -50,6 +50,14 @@
 		{
 			"name": "protobuf-bundles",
 			"path": "protobuf/bundles"
+		},
+		{
+			"name": "long",
+			"path": "./libs/long"
+		},
+		{
+			"name": "puremvc",
+			"path": "./libs/puremvc"
 		}
 	]
 }

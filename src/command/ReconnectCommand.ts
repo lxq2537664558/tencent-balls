@@ -1,7 +1,7 @@
-class ReconnectCommand extends SimpleCommand {
+class ReconnectCommand extends puremvc.SimpleCommand {
     public static NAME: string = "ReconnectCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("ReconnectCommand.execute:");
     }
 }

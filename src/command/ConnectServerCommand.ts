@@ -1,7 +1,7 @@
-class ConnectServerCommand extends SimpleCommand {
+class ConnectServerCommand extends puremvc.SimpleCommand {
     public static NAME: string = "ConnectServerCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         if (!BattleManager.getInstance().isInGame || !BattleManager.getInstance().isBattlePlaying) {
             this.sendNotification(ApplicationFacade.CHANGE_LOADING, "connecting server...", UIConfig.SHOW_LOADING);
         }

@@ -1,4 +1,6 @@
 class BattleDisplayBall extends egret.DisplayObject {
+    public static readonly CHAR_URL: boolean = true;
+
     private isTopZ_: boolean;
     private isShowHigh_: boolean;
     private isProtect_: boolean;

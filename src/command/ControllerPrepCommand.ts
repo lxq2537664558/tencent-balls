@@ -1,4 +1,4 @@
-class ControllerPrepCommand extends SimpleCommand {
+class ControllerPrepCommand extends puremvc.SimpleCommand {
     constructor() {
         super();
     }

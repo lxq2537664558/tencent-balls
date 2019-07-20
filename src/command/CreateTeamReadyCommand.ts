@@ -1,7 +1,7 @@
-class CreateTeamReadyCommand extends SimpleCommand {
+class CreateTeamReadyCommand extends puremvc.SimpleCommand {
     public static NAME: string = "CreateTeamReadyCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("CreateTeamReadyCommand.execute:");
     }
 }

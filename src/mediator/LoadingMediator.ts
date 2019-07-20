@@ -1,4 +1,4 @@
-class LoadingMediator extends Mediator {
+class LoadingMediator extends puremvc.Mediator {
     public static readonly NAME: string = "LoadingMediator";
 
     constructor(scene: SceneBase) {
@@ -17,6 +17,6 @@ class LoadingMediator extends Mediator {
         return [];
     }
 
-    public handleNotification(notification: CustomNotification): void {
+    public handleNotification(notification: puremvc.Notification): void {
     }
 }

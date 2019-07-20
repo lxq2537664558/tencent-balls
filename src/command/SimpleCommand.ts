@@ -3,6 +3,6 @@ class SimpleCommand extends Notifier {
         super();
     }
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
     }
 }

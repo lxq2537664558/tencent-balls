@@ -1,4 +1,4 @@
-class EnterGameProxy extends Proxy {
+class EnterGameProxy extends puremvc.Proxy {
     public static NAME: string = "EnterGameProxy";
 
     private inviterJoinTeamOnce_: boolean;

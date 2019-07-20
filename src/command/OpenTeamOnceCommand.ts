@@ -1,7 +1,7 @@
-class OpenTeamOnceCommand extends SimpleCommand {
+class OpenTeamOnceCommand extends puremvc.SimpleCommand {
     public static NAME: string = "OpenTeamOnceCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("OpenTeamOnceCommand.execute:");
     }
 }

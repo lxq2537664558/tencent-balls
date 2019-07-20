@@ -1,4 +1,4 @@
-class UIMediator extends Mediator {
+class UIMediator extends puremvc.Mediator {
     public static readonly NAME: string = "UIMediator";
     public static view: UILayer;
 
@@ -20,11 +20,11 @@ class UIMediator extends Mediator {
             , SingletonPanelBase.AddSingletonPanel, SingletonPanelBase.RemoveSingletonPanel];
     }
 
-    public handleNotification(notification: CustomNotification): void {
+    public handleNotification(notification: puremvc.Notification): void {
         switch (notification.name) {
             case ApplicationFacade.CHANGE_SCENE: {
                 if (notification.type === UIConfig.ADD_SCENE) {
-                    this.openScene(notification.params);
+                    this.openScene(notification.getBody());
                 }
                 else if (notification.type === UIConfig.SCENE_NAV_BACK) {
                     const sceneId: number = 0;
@@ -37,7 +37,7 @@ class UIMediator extends Mediator {
             break;
             case ApplicationFacade.CHANGE_PANEL: {
                 if (notification.type === UIConfig.ADD_PANEL) {
-                    const params: string | NotificationPanelAddData = notification.params;
+                    const params: string | NotificationPanelAddData = notification.getBody();
 
                     if (!params) {
                         console.error("UIMediator.handleNotification: ", "add panel with a null param.");
@@ -74,13 +74,13 @@ class UIMediator extends Mediator {
                     }
                 }
                 else {
-                    this.rootView.removePanel(notification.params);
+                    this.rootView.removePanel(notification.getBody());
                 }
             }
             break;
             case ApplicationFacade.CHANGE_LOADING: {
                 if (notification.type === UIConfig.SHOW_LOADING) {
-                    const params: string | LoadingStateData = notification.params;
+                    const params: string | LoadingStateData = notification.getBody();
 
                     if (!params) {
                         console.error("UIMediator.handleNotification: ", "change loading with a null param.");
@@ -114,11 +114,11 @@ class UIMediator extends Mediator {
             }
             break;
             case SingletonPanelBase.AddSingletonPanel: {
-                SingletonPanelManager.getInstance().pushPanel(notification.params);
+                SingletonPanelManager.getInstance().pushPanel(notification.getBody());
             }
             break;
             case SingletonPanelBase.RemoveSingletonPanel: {
-                SingletonPanelManager.getInstance().popPanel(notification.params);
+                SingletonPanelManager.getInstance().popPanel(notification.getBody());
             }
             break;
             default: {

@@ -1,7 +1,7 @@
-class SocketServerEventCommand extends SimpleCommand {
+class SocketServerEventCommand extends puremvc.SimpleCommand {
     public static NAME: string = "SocketServerEventCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         
     }
 }

@@ -14,6 +14,7 @@ class SocketServer {
     public static readonly BattleServerType: string = "battle";
 
     private static instance_: SocketServer;
+    private static battleInstance_: SocketServer;
     private needReconnect_: boolean;
     private maxRecconectCount_: number;
     private reconnectCount_: number;
@@ -52,11 +53,11 @@ class SocketServer {
     }
 
     public static getInstanceByBattle(): SocketServer {
-        if (!this.instance_) {
-            this.instance_ = new SocketServer(SocketServer.BattleServerType, new BattleReceiveMessageHandler());
+        if (!this.battleInstance_) {
+            this.battleInstance_ = new SocketServer(SocketServer.BattleServerType, new BattleReceiveMessageHandler());
         }
 
-        return this.instance_;
+        return this.battleInstance_;
     }
 
     public initServer(host: string, msg: any): void {

@@ -1,4 +1,4 @@
-class LoginProxy extends Proxy {
+class LoginProxy extends puremvc.Proxy {
     private loginListener_: MessageListener;
     private loginStateNotifyListener_: MessageListener;
     private static readonly Relogin: number = 1;

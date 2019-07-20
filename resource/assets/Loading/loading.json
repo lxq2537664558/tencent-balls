@@ -1,0 +1,11 @@
+{"file":"loading.png","frames":{
+"loading_bg_1_png":{"x":428,"y":123,"w":13,"h":18,"offX":0,"offY":0,"sourceW":13,"sourceH":18},
+"loading_bg_E4E4E4_png":{"x":170,"y":296,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"loading_bg_white01_png":{"x":119,"y":341,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"loading_btn_gou_png":{"x":119,"y":296,"w":49,"h":43,"offX":2,"offY":2,"sourceW":52,"sourceH":46},
+"loading_lobby_chest_erjianniu_png":{"x":428,"y":85,"w":38,"h":36,"offX":0,"offY":0,"sourceW":38,"sourceH":38},
+"loading_main_kaishiyouxi_png":{"x":1,"y":370,"w":112,"h":27,"offX":0,"offY":0,"sourceW":112,"sourceH":27},
+"loading_main_yiyue_png":{"x":1,"y":399,"w":51,"h":26,"offX":0,"offY":0,"sourceW":51,"sourceH":26},
+"loading_xtxx_titleBg_png":{"x":1,"y":296,"w":116,"h":72,"offX":0,"offY":0,"sourceW":116,"sourceH":72},
+"loading_zhuanquan_png":{"x":428,"y":1,"w":82,"h":82,"offX":0,"offY":1,"sourceW":84,"sourceH":84},
+"RedFoxLogo_png":{"x":1,"y":1,"w":425,"h":293,"offX":24,"offY":36,"sourceW":464,"sourceH":351}}}

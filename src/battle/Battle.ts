@@ -6,11 +6,14 @@ class Battle {
     public static readonly PanelWidth: number = 1280;
     public static readonly Freeze: boolean = false;
     public static readonly RetainLeftTime: number = 3;
+    public static readonly GuestPauseTimeout: number = 240;
 
     private static instance_: Battle;
 
     private viewRect_: egret.Rectangle;
     private velocityList_: ObjectPool;
+    private updatePositionTime_: number;
+    private applicationUnscaledTotalTime_: number;
 
     constructor() {
         this.viewRect = new egret.Rectangle();
@@ -57,11 +60,45 @@ class Battle {
         return ResourceUtils.getResUrl(url);
     }
 
+    public getCharUrlRes(charId: number, isHighRes?: boolean): string {
+        if (isHighRes === null || isHighRes === void 0) {
+            isHighRes = false;
+        }
+
+        const config: ItemResInfo = ConfigManager.getInstance().itemResInfo.getItemResConfig(charId);
+        let path = "";
+
+        if (isHighRes) {
+            path = config.highRes;
+        }
+        else {
+            path = config.lowRes;
+        }
+
+        return URLConst.RES_URL_REAL_ROOT + URLConst.ASYNC_ASSETS_URL + "battle/256" + path + ".png";
+    }
+
     set viewRect(value) {
         this.viewRect_ = value;
     }
 
     get viewRect() {
         return this.viewRect_;
+    }
+
+    set updatePositionTime(value) {
+        this.updatePositionTime_ = value;
+    }
+
+    get updatePositionTime() {
+        return this.updatePositionTime_;
+    }
+
+    set applicationUnscaledTotalTime(value) {
+        this.applicationUnscaledTotalTime_ = value;
+    }
+
+    get applicationUnscaledTotalTime() {
+        return this.applicationUnscaledTotalTime_;
     }
 }

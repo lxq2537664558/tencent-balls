@@ -1,3 +1,3 @@
-class GameFinishCommand extends SimpleCommand {
+class GameFinishCommand extends puremvc.SimpleCommand {
     
 }

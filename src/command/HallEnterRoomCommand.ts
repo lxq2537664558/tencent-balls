@@ -1,4 +1,4 @@
-class HallEnterRoomCommand extends SimpleCommand {
+class HallEnterRoomCommand extends puremvc.SimpleCommand {
     public static RECONNECT: string = "RECONNECT";
     public static CONNECT: string = "CONNECT";
     public static CONNECTED: string = "CONNECTED";
@@ -7,8 +7,8 @@ class HallEnterRoomCommand extends SimpleCommand {
         super();
     }
 
-    public execute(notification: CustomNotification): void {
-        switch (notification.type) {
+    public execute(notification: puremvc.INotification): void {
+        switch (notification.getType()) {
             case HallEnterRoomCommand.RECONNECT: {
 
             }

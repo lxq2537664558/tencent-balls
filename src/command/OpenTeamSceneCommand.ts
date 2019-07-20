@@ -1,7 +1,7 @@
-class OpenTeamSceneCommand extends SimpleCommand {
+class OpenTeamSceneCommand extends puremvc.SimpleCommand {
     public static NAME: string = "OpenTeamSceneCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("OpenTeamSceneCommand.execute:");
     }
 }

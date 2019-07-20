@@ -1,11 +1,11 @@
-class StartLoginCommond extends SimpleCommand {
+class StartLoginCommond extends puremvc.SimpleCommand {
     public static NAME: string = "StartLoginCommond";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
         console.log("StartLoginCommond.execute:");
 
         if (h5sdk.enabled) {
-            // this.facade.sendNotification(H5SDKCommand.LOGIN_SUCCESS);
+            // this.facade().sendNotification(H5SDKCommand.LOGIN_SUCCESS);
         }
         else if (wxsdk.enabled && !wxsdk.isGuestLogin) {
             console.log("StartLoginCommond.execute.wx.login: ", "account sign in.");

@@ -1,7 +1,7 @@
-class InitPlayerInfoReqCommand extends SimpleCommand {
+class InitPlayerInfoReqCommand extends puremvc.SimpleCommand {
     public static NAME: string = "InitPlayerInfoReqCommand";
 
-    public execute(notification: CustomNotification): void {
+    public execute(notification: puremvc.INotification): void {
 
     }
 }

@@ -1,4 +1,4 @@
-class GameCommand extends SimpleCommand {
+class GameCommand extends puremvc.SimpleCommand {
     public static NAME: string = "GameCommand";
     public static START_GAME: string = "startGame";
     public static HALL_ENTER_ROOM: string = "hallEnterRoom";
@@ -16,19 +16,19 @@ class GameCommand extends SimpleCommand {
     }
 
     public register(): void {
-        this.facade.registerCommand(GameCommand.START_GAME, StartNewGameCommand);
-        this.facade.registerCommand(GameCommand.HALL_ENTER_ROOM, HallEnterRoomCommand);
-        this.facade.registerCommand(GameCommand.GAME_OVER, GameOverCommand);
-        this.facade.registerCommand(GameCommand.PAUSE_GAME, GamePauseCommand);
-        this.facade.registerCommand(GameCommand.FINISH_GAME, GameFinishCommand);
-        this.facade.registerCommand(GameCommand.PLAY_GAME, this);
-        this.facade.registerCommand(GameCommand.UPDATE_SCORE, this);
-        this.facade.registerCommand(GameCommand.RESTART_GAME, this);
-        this.facade.registerCommand(GameCommand.RESUME_GAME, this);
-        this.facade.registerCommand(GameCommand.SIGN_DATA_UPDATE, this);
+        this.facade().registerCommand(GameCommand.START_GAME, StartNewGameCommand);
+        this.facade().registerCommand(GameCommand.HALL_ENTER_ROOM, HallEnterRoomCommand);
+        this.facade().registerCommand(GameCommand.GAME_OVER, GameOverCommand);
+        this.facade().registerCommand(GameCommand.PAUSE_GAME, GamePauseCommand);
+        this.facade().registerCommand(GameCommand.FINISH_GAME, GameFinishCommand);
+        this.facade().registerCommand(GameCommand.PLAY_GAME, GameCommand);
+        this.facade().registerCommand(GameCommand.UPDATE_SCORE, GameCommand);
+        this.facade().registerCommand(GameCommand.RESTART_GAME, GameCommand);
+        this.facade().registerCommand(GameCommand.RESUME_GAME, GameCommand);
+        this.facade().registerCommand(GameCommand.SIGN_DATA_UPDATE, GameCommand);
     }
 
-    public execute(notification: CustomNotification): void {
-
+    public execute(notification: puremvc.INotification): void {
+        console.log("GameCommand.execute:");
     }
 }

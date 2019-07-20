@@ -1,4 +1,4 @@
-class MainSceneMediator extends Mediator {
+class MainSceneMediator extends puremvc.Mediator {
     public static readonly NAME: string = "MainSceneMediator";
     
     private openSystemCache_: Dictionary;
@@ -14,7 +14,7 @@ class MainSceneMediator extends Mediator {
     }
 
     public onRegister(): void {
-        const playerProxy: PlayerProxy = <PlayerProxy>(this.facade.retrieveProxy(PlayerProxy.NAME));
+        const playerProxy: PlayerProxy = <PlayerProxy>(this.facade().retrieveProxy(PlayerProxy.NAME));
         this.playerVo = playerProxy.playerVo;
         this.viewComponent.singleBtn_.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onSingleBtn, this);
         this.passTime = 5;

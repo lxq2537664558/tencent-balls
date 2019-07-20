@@ -1,4 +1,4 @@
-class TimeProxy extends Proxy {
+class TimeProxy extends puremvc.Proxy {
     public static NAME: string = "TimeProxy";
     public static TimeInit: string = "TimeInit";
     public static TimePoint: string = "TimePoint";

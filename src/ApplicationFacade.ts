@@ -1,15 +1,17 @@
-class ApplicationFacade extends Facade {
-    public static STARTUP: string = "startUp";
-    public static CHANGE_SCENE: string = "changeScene";
-    public static CHANGE_PANEL: string = "changePanel";
-    public static CHANGE_LOADING: string = "changeLoading";
+class ApplicationFacade extends puremvc.Facade {
+    public static instance_: ApplicationFacade;
+    public static readonly NAME: string = "ApplicationFacade";
+    public static readonly STARTUP: string = "startUp";
+    public static readonly CHANGE_SCENE: string = "changeScene";
+    public static readonly CHANGE_PANEL: string = "changePanel";
+    public static readonly CHANGE_LOADING: string = "changeLoading";
 
     private timestamp_: number;
     private switchDB_: boolean;
     private stage_: egret.Stage;
 
     constructor() {
-        super();
+        super(ApplicationFacade.NAME);
     }
 
     public static getInstance(): ApplicationFacade {
@@ -42,7 +44,7 @@ class ApplicationFacade extends Facade {
     public onDeActivate(): void {
     }
 
-    protected initializeController(): void {
+    public initializeController(): void {
         super.initializeController();
         this.registerCommand(ApplicationFacade.STARTUP, StartupCommand);
     }

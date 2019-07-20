@@ -1,4 +1,4 @@
-class PanelBaseMediator extends Mediator {
+class PanelBaseMediator extends puremvc.Mediator {
     protected customEvents_: Array<any>;
     private panel_: PanelBase;
 
@@ -30,7 +30,7 @@ class PanelBaseMediator extends Mediator {
         return [];
     }
 
-    public handleNotification(notification: CustomNotification): void {
+    public handleNotification(notification: puremvc.Notification): void {
 
     }
 
