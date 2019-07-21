@@ -1,0 +1,54 @@
+{
+		"engineVersion": "5.2.23",
+		"compilerVersion": "5.2.23",
+		"template": {},
+		"target": {
+				"current": "web"
+		},
+		"modules": [
+				{
+						"name": "egret"
+				},
+				{
+						"name": "eui"
+				},
+				{
+						"name": "assetsmanager"
+				},
+				{
+						"name": "tween"
+				},
+				{
+						"name": "dragonBones"
+				},
+				{
+						"name": "game"
+				},
+				{
+						"name": "socket"
+				},
+				{
+						"name": "promise"
+				},
+				{
+						"name": "MGOBE",
+						"path": "./libs/MGOBE"
+				},
+				{
+						"name": "Long",
+						"path": "./libs/long"
+				},
+				{
+						"name": "puremvc",
+						"path": "./libs/puremvc"
+				},
+				{
+						"name": "protobuf-library",
+						"path": "protobuf/library"
+				},
+				{
+						"name": "protobuf-bundles",
+						"path": "protobuf/bundles"
+				}
+		]
+}
