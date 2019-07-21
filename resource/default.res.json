@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,res_active_point_reward_json,res_constellation_json,res_daily_mission_json,res_drop_json,res_errorcode_info_json,res_grade_info_json,res_guide_client_json,res_guide_reward_json,res_guide_server_json,res_guide_weak_json,res_item_attr_json,res_item_res_json,res_mission_order_json,res_player_grow_json,res_primary_mission_json,res_skill_json,res_skill_buff_json,res_stars_config_json,res_union_active_point_reward_json,res_version_json,res_languages_json",
 			"name": "preload"
 		}
 	],
@@ -120,6 +120,111 @@
 			"url": "assets/ScrollBar/track_sb.png",
 			"type": "image",
 			"name": "track_sb_png"
+		},
+		{
+			"name": "res_active_point_reward_json",
+			"type": "json",
+			"url": "config/res_active_point_reward.json"
+		},
+		{
+			"name": "res_constellation_json",
+			"type": "json",
+			"url": "config/res_constellation.json"
+		},
+		{
+			"name": "res_daily_mission_json",
+			"type": "json",
+			"url": "config/res_daily_mission.json"
+		},
+		{
+			"name": "res_drop_json",
+			"type": "json",
+			"url": "config/res_drop.json"
+		},
+		{
+			"name": "res_errorcode_info_json",
+			"type": "json",
+			"url": "config/res_errorcode_info.json"
+		},
+		{
+			"name": "res_grade_info_json",
+			"type": "json",
+			"url": "config/res_grade_info.json"
+		},
+		{
+			"name": "res_guide_client_json",
+			"type": "json",
+			"url": "config/res_guide_client.json"
+		},
+		{
+			"name": "res_guide_reward_json",
+			"type": "json",
+			"url": "config/res_guide_reward.json"
+		},
+		{
+			"name": "res_guide_server_json",
+			"type": "json",
+			"url": "config/res_guide_server.json"
+		},
+		{
+			"name": "res_guide_weak_json",
+			"type": "json",
+			"url": "config/res_guide_weak.json"
+		},
+		{
+			"name": "res_item_attr_json",
+			"type": "json",
+			"url": "config/res_item_attr.json"
+		},
+		{
+			"name": "res_item_res_json",
+			"type": "json",
+			"url": "config/res_item_res.json"
+		},
+		{
+			"name": "res_mission_order_json",
+			"type": "json",
+			"url": "config/res_mission_order.json"
+		},
+		{
+			"name": "res_player_grow_json",
+			"type": "json",
+			"url": "config/res_player_grow.json"
+		},
+		{
+			"name": "res_primary_mission_json",
+			"type": "json",
+			"url": "config/res_primary_mission.json"
+		},
+		{
+			"name": "res_skill_json",
+			"type": "json",
+			"url": "config/res_skill.json"
+		},
+		{
+			"name": "res_skill_buff_json",
+			"type": "json",
+			"url": "config/res_skill_buff.json"
+		},
+		{
+			"name": "res_stars_config_json",
+			"type": "json",
+			"url": "config/res_stars_config.json"
+		},
+		{
+			"name": "res_union_active_point_reward_json",
+			"type": "json",
+			"url": "config/res_union_active_point_reward.json"
+		},
+		{
+			"name": "res_version_json",
+			"type": "json",
+			"url": "config/res_version.json"
+		},
+		{
+			"name": "res_languages_json",
+			"type": "json",
+			"url": "config/res_languages.json"
 		}
 	]
 }

@@ -58,10 +58,6 @@ class Main extends eui.UILayer {
     }
 
     private async runGame() {
-        console.log(MGOBE);
-        console.log(Long);
-        console.log(puremvc);
-        console.log(protobuf);
     }
 
     private async loadResource() {
