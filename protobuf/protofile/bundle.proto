@@ -7,6 +7,29 @@ message NullCmd {
     uint32 seq = 3;
 }
 
+message BallRoomUserInfo {
+    string uid = 1;
+    string name = 2;
+    uint32 country = 3;
+    uint32 province = 4;
+    uint32 level = 5;
+    uint32 relationFlag = 6;
+    uint32 index = 7;
+    string teamId = 8;
+    uint32 initLife = 9;
+    uint32 currLife = 10;
+    uint32 killCount = 11;
+    string teamName = 12;
+    string headImg = 13;
+    uint32 charId = 14;
+    uint32 tailId = 15;
+    uint32 ringId = 16;
+    uint32 sporeId = 17;
+    uint32 watcher = 18;
+    uint32 realCharId = 19;
+    uint32 sex = 20;
+}
+
 message CmdUser_HeartBeat_CS {
     uint32 seqId = 1;
 }

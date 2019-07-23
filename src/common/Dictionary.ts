@@ -1,5 +1,5 @@
 class Dictionary {
-    private keys_: Array<number | string>;
+    private keys_: Array<any>;
     private values_: Array<any>;
 
     constructor() {

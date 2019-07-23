@@ -49,7 +49,63 @@ class BattleLoadingManager {
         }
 
         if (playerVo.ringId !== 0) {
-            
+            ++this.playerResNum;
+            const url: string = Battle.getItemResPath(playerVo.ringId);
+            ResourceUtil.getResByUrlRelative(url, (texture: egret.Texture) => {
+                self.addPreRenderTexture(texture);
+                --self.playerResNum;
+            }, this, RES.ResourceItem.TYPE_IMAGE);
+        }
+
+        if (playerVo.charId !== 0) {
+            ++this.playerResNum;
+            const lowResUrl: string = Battle.getCharResUrl(playerVo.charId);
+            ResourceUtil.getResByUrlRelative(lowResUrl, (texture: egret.Texture) => {
+                self.addPreRenderTexture(texture);
+                --self.playerResNum;
+            }, this, RES.ResourceItem.TYPE_IMAGE);
+            const highResUrl: string = Battle.getCharResUrl(playerVo.charId, true);
+            ResourceUtil.getResByUrlRelative(highResUrl, (texture: egret.Texture) => {
+                self.addPreRenderTexture(texture);
+                --self.playerResNum;
+            }, this, RES.ResourceItem.TYPE_IMAGE);
+        }
+
+        if (BattleService.getInstance().isSingleMode()) {
+            const name: string = BattleService.getInstance().getPlayerNameByUid(playerVo.uid);
+            TextTextureCaches.getInstance().cacheText(name, {
+                size: 32,
+            });
+            TextTextureCaches.getInstance().getCacheTexture(name, this.onTextCompleted, this, 32);
+
+            if (isSelf) {
+                TextTextureCaches.getInstance().cacheText(name + " ", {
+                    size: 32,
+                    textColor: 16448401,
+                });
+                TextTextureCaches.getInstance().getCacheTexture(name + " ", this.onTextCompleted, this, 32);
+            }
+        }
+        else if (BattleService.getInstance().isTeamMode()) {
+            TextTextureCaches.getInstance().cacheText(playerVo.fullName, {
+                size: 32,
+            });
+            TextTextureCaches.getInstance().getCacheTexture(playerVo.fullName, this.onTextCompleted, this, 32);
+            const teamName: string = playerVo.teamName + "(2)";
+
+            if (isSelf) {
+                TextTextureCaches.getInstance().cacheText(teamName + " ", {
+                    size: 32,
+                    textColor: 16448401,
+                });
+                TextTextureCaches.getInstance().getCacheTexture(teamName + " ", this.onTextCompleted, this, 32);
+            }
+            else {
+                TextTextureCaches.getInstance().cacheText(teamName, {
+                    size: 32,
+                });
+                TextTextureCaches.getInstance().getCacheTexture(teamName, this.onTextCompleted, this, 32);
+            }
         }
     }
 
@@ -96,10 +152,10 @@ class BattleLoadingManager {
         }
     }
 
-    private onGroupLoadError(e: RES.ResourceEvent): void {        
+    private onGroupLoadError(e: RES.ResourceEvent): void {
     }
 
-    private onGroupProgress(e: RES.ResourceEvent): void {        
+    private onGroupProgress(e: RES.ResourceEvent): void {
     }
 
     private onItemLoadError(e: RES.ResourceEvent): void {
@@ -152,9 +208,9 @@ class BattleLoadingManager {
                     egret.stopTick(this.onTick, this);
                 }
             }
-        }        
+        }
 
-        return false;    
+        return false;
     }
 
     set step(value) {

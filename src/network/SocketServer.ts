@@ -238,4 +238,8 @@ class SocketServer {
     get host() {
         return this.host_;
     }
+
+    get msgHandler() {
+        return this.msgHandler_;
+    }
 }

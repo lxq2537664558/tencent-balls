@@ -1,0 +1,47 @@
+class BattleMode {
+    public static readonly Normal: number = 1;
+    public static readonly Survive: number = 2;
+    public static readonly Melee: number = 3;
+    public static readonly Team2: number = 4;
+    public static readonly Team5: number = 5;
+    public static readonly Guest: number = 6;
+    public static readonly IntroduceSingle_1: number = 7;
+    public static readonly IntroduceSingle_2: number = 8;
+    public static readonly IntroduceTeam_1: number = 9;
+    public static readonly IntroduceTeam_2: number = 10;
+    public static readonly BattleMelee_2: number = 11;
+    public static readonly BattleMelee_5: number = 12;
+    public static readonly TrainingSingle_1: number = 13;
+    public static readonly TrainingSingle_2: number = 14;
+    public static readonly TrainingSingle_3: number = 15;
+    public static readonly TrainingSingle_4: number = 16;
+    public static readonly BattleQualifyClassic: number = 17;
+    public static readonly BattleQualifyMulti: number = 18;
+    public static readonly BattleQualifyTeam: number = 19;
+    public static readonly BattleQualifyMelee: number = 20;
+    public static readonly BattleQualifyMeleeMulti: number = 21;
+    public static readonly BattleQualifyMeleeTeam: number = 22;
+}
+
+BattleMode[BattleMode.Normal.toString()] = "单人经典";
+BattleMode[BattleMode.Survive.toString()] = "生存模式";
+BattleMode[BattleMode.Melee.toString()] = "单人大乱斗";
+BattleMode[BattleMode.Team2.toString()] = "双人组队";
+BattleMode[BattleMode.Team5.toString()] = "五人组队";
+BattleMode[BattleMode.Guest.toString()] = "游客模式";
+BattleMode[BattleMode.IntroduceSingle_1.toString()] = "";
+BattleMode[BattleMode.IntroduceSingle_2.toString()] = "";
+BattleMode[BattleMode.IntroduceTeam_1.toString()] = "双人组队";
+BattleMode[BattleMode.IntroduceTeam_2.toString()] = "双人组队";
+BattleMode[BattleMode.BattleMelee_2.toString()] = "双人大乱斗";
+BattleMode[BattleMode.BattleMelee_5.toString()] = "五人大乱斗";
+BattleMode[BattleMode.TrainingSingle_1.toString()] = "中吐合球练习";
+BattleMode[BattleMode.TrainingSingle_2.toString()] = "吐球分裂练习";
+BattleMode[BattleMode.TrainingSingle_3.toString()] = "双分合球练习";
+BattleMode[BattleMode.TrainingSingle_4.toString()] = "四分合球练习";
+BattleMode[BattleMode.BattleQualifyClassic.toString()] = "单人排位";
+BattleMode[BattleMode.BattleQualifyMulti.toString()] = "双人排位";
+BattleMode[BattleMode.BattleQualifyTeam.toString()] = "五人排位";
+BattleMode[BattleMode.BattleQualifyMelee.toString()] = "单人排位大乱斗";
+BattleMode[BattleMode.BattleQualifyMeleeMulti.toString()] = "双人排位大乱斗";
+BattleMode[BattleMode.BattleQualifyMeleeTeam.toString()] = "五人排位大乱斗";

@@ -15,6 +15,7 @@ class ConfigManager {
     private itemResInfo_: ItemResInfoConfig;
     private guideInfo_: GuideInfoConfig;
     private languageInfo_: LanguageConfig;
+    private meleeInfo_: MeleeInfoConfig;
 
     constructor() {
     }
@@ -42,6 +43,7 @@ class ConfigManager {
         this.itemResInfo_ = new ItemResInfoConfig();
         this.guideInfo_ = new GuideInfoConfig();
         this.languageInfo_ = new LanguageConfig();
+        this.meleeInfo_ = new MeleeInfoConfig();
     }
 
     get versionInfo() {
@@ -98,5 +100,9 @@ class ConfigManager {
 
     get languageInfo() {
         return this.languageInfo_;
+    }
+
+    get meleeInfo() {
+        return this.meleeInfo_;
     }
 }

@@ -10,12 +10,12 @@ class ReceiveMessageHandler {
     }
 
     public register(id: number, handler: any): void {
-        if (this.registerHandler_.containKey(id)) {
+        if (this.registerHandler_.containKey(id.toString())) {
             console.log("ReceiveMessageHandler.register: ", "msg id " + id.toString() + " has registered.");
             return;
         }
 
-        this.registerHandler_.add(id, handler);
+        this.registerHandler_.add(id.toString(), handler);
     }
 
     public destroy(): void {
