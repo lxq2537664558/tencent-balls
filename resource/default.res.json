@@ -1,8 +1,20 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,res_active_point_reward_json,res_constellation_json,res_daily_mission_json,res_drop_json,res_errorcode_info_json,res_grade_info_json,res_guide_client_json,res_guide_reward_json,res_guide_server_json,res_guide_weak_json,res_item_attr_json,res_item_res_json,res_mission_order_json,res_player_grow_json,res_primary_mission_json,res_skill_json,res_skill_buff_json,res_stars_config_json,res_union_active_point_reward_json,res_version_json,res_languages_json,res_melee_mode_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,btn_signin_weixin_png,common_messagebox_00_01_png,loading_json,common_beijing_png,common_close_png,common_guang_png,common_moren_png,common_tanchuang_png,common_touying_png,common_wenhao_png,common_xuanzhe_png,common_xuanzhong_png,common_xuanzhong_jiantou_png,common_yanshe_png,home_btn_BJ_png,home_caibei_png,home_fengexian_png,home_gongneng_bg_png,home_jinbi_png,home_jindu_shang_png,home_jindu_xia_png,home_liaotian_png,home_touxiangkuang'_png,home_zhuanshi_png,phone_1_png,phone_2_png,phone_3_png,wifi_1_png,wifi_2_png,wifi_3_png,res_server_info_json",
 			"name": "preload"
+		},
+		{
+			"keys": "res_union_active_point_reward_json,res_stars_config_json,res_skill_json,res_skill_buff_json,res_primary_mission_json,res_player_grow_json,res_mission_order_json,res_melee_mode_json,res_languages_json,res_item_res_json,res_item_attr_json,res_guide_weak_json,res_guide_server_json,res_guide_reward_json,res_guide_client_json,res_grade_info_json,res_errorcode_info_json,res_drop_json,res_daily_mission_json,res_constellation_json,res_active_point_reward_json",
+			"name": "config"
+		},
+		{
+			"keys": "res_version_json,loading_json",
+			"name": "loading"
+		},
+		{
+			"keys": "wifi_3_png,wifi_2_png,wifi_1_png,phone_3_png,phone_2_png,phone_1_png,home_zhuanshi_png,home_touxiangkuang'_png,home_liaotian_png,home_jindu_xia_png,home_jindu_shang_png,home_jinbi_png,home_gongneng_bg_png,home_fengexian_png,home_caibei_png,home_btn_BJ_png,common_yanshe_png,common_xuanzhong_png,common_xuanzhong_jiantou_png,common_xuanzhe_png,common_wenhao_png,common_touying_png,common_tanchuang_png,common_moren_png,common_guang_png,common_close_png,common_beijing_png",
+			"name": "common"
 		}
 	],
 	"resources": [
@@ -122,114 +134,270 @@
 			"name": "track_sb_png"
 		},
 		{
-			"name": "res_active_point_reward_json",
+			"url": "config/res_active_point_reward.json",
 			"type": "json",
-			"url": "config/res_active_point_reward.json"
+			"name": "res_active_point_reward_json"
 		},
 		{
-			"name": "res_constellation_json",
+			"url": "config/res_constellation.json",
 			"type": "json",
-			"url": "config/res_constellation.json"
+			"name": "res_constellation_json"
 		},
 		{
-			"name": "res_daily_mission_json",
+			"url": "config/res_daily_mission.json",
 			"type": "json",
-			"url": "config/res_daily_mission.json"
+			"name": "res_daily_mission_json"
 		},
 		{
-			"name": "res_drop_json",
+			"url": "config/res_drop.json",
 			"type": "json",
-			"url": "config/res_drop.json"
+			"name": "res_drop_json"
 		},
 		{
-			"name": "res_errorcode_info_json",
+			"url": "config/res_errorcode_info.json",
 			"type": "json",
-			"url": "config/res_errorcode_info.json"
+			"name": "res_errorcode_info_json"
 		},
 		{
-			"name": "res_grade_info_json",
+			"url": "config/res_grade_info.json",
 			"type": "json",
-			"url": "config/res_grade_info.json"
+			"name": "res_grade_info_json"
 		},
 		{
-			"name": "res_guide_client_json",
+			"url": "config/res_guide_client.json",
 			"type": "json",
-			"url": "config/res_guide_client.json"
+			"name": "res_guide_client_json"
 		},
 		{
-			"name": "res_guide_reward_json",
+			"url": "config/res_guide_reward.json",
 			"type": "json",
-			"url": "config/res_guide_reward.json"
+			"name": "res_guide_reward_json"
 		},
 		{
-			"name": "res_guide_server_json",
+			"url": "config/res_guide_server.json",
 			"type": "json",
-			"url": "config/res_guide_server.json"
+			"name": "res_guide_server_json"
 		},
 		{
-			"name": "res_guide_weak_json",
+			"url": "config/res_guide_weak.json",
 			"type": "json",
-			"url": "config/res_guide_weak.json"
+			"name": "res_guide_weak_json"
 		},
 		{
-			"name": "res_item_attr_json",
+			"url": "config/res_item_attr.json",
 			"type": "json",
-			"url": "config/res_item_attr.json"
+			"name": "res_item_attr_json"
 		},
 		{
-			"name": "res_item_res_json",
+			"url": "config/res_item_res.json",
 			"type": "json",
-			"url": "config/res_item_res.json"
+			"name": "res_item_res_json"
 		},
 		{
-			"name": "res_mission_order_json",
+			"url": "config/res_mission_order.json",
 			"type": "json",
-			"url": "config/res_mission_order.json"
+			"name": "res_mission_order_json"
 		},
 		{
-			"name": "res_player_grow_json",
+			"url": "config/res_player_grow.json",
 			"type": "json",
-			"url": "config/res_player_grow.json"
+			"name": "res_player_grow_json"
 		},
 		{
-			"name": "res_primary_mission_json",
+			"url": "config/res_primary_mission.json",
 			"type": "json",
-			"url": "config/res_primary_mission.json"
+			"name": "res_primary_mission_json"
 		},
 		{
-			"name": "res_skill_json",
+			"url": "config/res_skill.json",
 			"type": "json",
-			"url": "config/res_skill.json"
+			"name": "res_skill_json"
 		},
 		{
-			"name": "res_skill_buff_json",
+			"url": "config/res_skill_buff.json",
 			"type": "json",
-			"url": "config/res_skill_buff.json"
+			"name": "res_skill_buff_json"
 		},
 		{
-			"name": "res_stars_config_json",
+			"url": "config/res_stars_config.json",
 			"type": "json",
-			"url": "config/res_stars_config.json"
+			"name": "res_stars_config_json"
 		},
 		{
-			"name": "res_union_active_point_reward_json",
+			"url": "config/res_union_active_point_reward.json",
 			"type": "json",
-			"url": "config/res_union_active_point_reward.json"
+			"name": "res_union_active_point_reward_json"
 		},
 		{
-			"name": "res_version_json",
+			"url": "config/res_version.json",
 			"type": "json",
-			"url": "config/res_version.json"
+			"name": "res_version_json"
 		},
 		{
-			"name": "res_languages_json",
+			"url": "config/res_languages.json",
 			"type": "json",
-			"url": "config/res_languages.json"
+			"name": "res_languages_json"
 		},
 		{
-			"name": "res_melee_mode_json",
+			"url": "config/res_melee_mode.json",
 			"type": "json",
-			"url": "config/res_melee_mode.json"
+			"name": "res_melee_mode_json"
+		},
+		{
+			"url": "assets/ui/btn_signin_weixin.png",
+			"type": "image",
+			"name": "btn_signin_weixin_png"
+		},
+		{
+			"url": "assets/ui/common_messagebox_00_01.png",
+			"type": "image",
+			"name": "common_messagebox_00_01_png"
+		},
+		{
+			"url": "config/res_server_info.json",
+			"type": "json",
+			"name": "res_server_info_json"
+		},
+		{
+			"url": "assets/loading/loading.json",
+			"type": "sheet",
+			"name": "loading_json",
+			"subkeys": "RedFoxLogo_png,loading_bg_1_png,loading_bg_E4E4E4_png,loading_bg_white01_png,loading_btn_gou_png,loading_lobby_chest_erjianniu_png,loading_main_kaishiyouxi_png,loading_main_yiyue_png,loading_xtxx_titleBg_png,loading_zhuanquan_png"
+		},
+		{
+			"url": "assets/ui/common/common_beijing.png",
+			"type": "image",
+			"name": "common_beijing_png"
+		},
+		{
+			"url": "assets/ui/common/common_close.png",
+			"type": "image",
+			"name": "common_close_png"
+		},
+		{
+			"url": "assets/ui/common/common_guang.png",
+			"type": "image",
+			"name": "common_guang_png"
+		},
+		{
+			"url": "assets/ui/common/common_moren.png",
+			"type": "image",
+			"name": "common_moren_png"
+		},
+		{
+			"url": "assets/ui/common/common_tanchuang.png",
+			"type": "image",
+			"name": "common_tanchuang_png"
+		},
+		{
+			"url": "assets/ui/common/common_touying.png",
+			"type": "image",
+			"name": "common_touying_png"
+		},
+		{
+			"url": "assets/ui/common/common_wenhao.png",
+			"type": "image",
+			"name": "common_wenhao_png"
+		},
+		{
+			"url": "assets/ui/common/common_xuanzhe.png",
+			"type": "image",
+			"name": "common_xuanzhe_png"
+		},
+		{
+			"url": "assets/ui/common/common_xuanzhong.png",
+			"type": "image",
+			"name": "common_xuanzhong_png"
+		},
+		{
+			"url": "assets/ui/common/common_xuanzhong_jiantou.png",
+			"type": "image",
+			"name": "common_xuanzhong_jiantou_png"
+		},
+		{
+			"url": "assets/ui/common/common_yanshe.png",
+			"type": "image",
+			"name": "common_yanshe_png"
+		},
+		{
+			"url": "assets/ui/common/home_btn_BJ.png",
+			"type": "image",
+			"name": "home_btn_BJ_png"
+		},
+		{
+			"url": "assets/ui/common/home_caibei.png",
+			"type": "image",
+			"name": "home_caibei_png"
+		},
+		{
+			"url": "assets/ui/common/home_fengexian.png",
+			"type": "image",
+			"name": "home_fengexian_png"
+		},
+		{
+			"url": "assets/ui/common/home_gongneng_bg.png",
+			"type": "image",
+			"name": "home_gongneng_bg_png"
+		},
+		{
+			"url": "assets/ui/common/home_jinbi.png",
+			"type": "image",
+			"name": "home_jinbi_png"
+		},
+		{
+			"url": "assets/ui/common/home_jindu_shang.png",
+			"type": "image",
+			"name": "home_jindu_shang_png"
+		},
+		{
+			"url": "assets/ui/common/home_jindu_xia.png",
+			"type": "image",
+			"name": "home_jindu_xia_png"
+		},
+		{
+			"url": "assets/ui/common/home_liaotian.png",
+			"type": "image",
+			"name": "home_liaotian_png"
+		},
+		{
+			"url": "assets/ui/common/home_touxiangkuang'.png",
+			"type": "image",
+			"name": "home_touxiangkuang'_png"
+		},
+		{
+			"url": "assets/ui/common/home_zhuanshi.png",
+			"type": "image",
+			"name": "home_zhuanshi_png"
+		},
+		{
+			"url": "assets/ui/common/phone_1.png",
+			"type": "image",
+			"name": "phone_1_png"
+		},
+		{
+			"url": "assets/ui/common/phone_2.png",
+			"type": "image",
+			"name": "phone_2_png"
+		},
+		{
+			"url": "assets/ui/common/phone_3.png",
+			"type": "image",
+			"name": "phone_3_png"
+		},
+		{
+			"url": "assets/ui/common/wifi_1.png",
+			"type": "image",
+			"name": "wifi_1_png"
+		},
+		{
+			"url": "assets/ui/common/wifi_2.png",
+			"type": "image",
+			"name": "wifi_2_png"
+		},
+		{
+			"url": "assets/ui/common/wifi_3.png",
+			"type": "image",
+			"name": "wifi_3_png"
 		}
 	]
 }

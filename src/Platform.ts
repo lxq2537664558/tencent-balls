@@ -5,19 +5,54 @@
  * 由于不同平台的接口形式各有不同，白鹭推荐开发者将所有接口封装为基于 Promise 的异步形式
  */
 declare interface Platform {
-
     getUserInfo(): Promise<any>;
-
-    login(): Promise<any>
-
+    login(): Promise<any>;
+    getGameVersion(): string;
+    isWXGame(): boolean;
+    isH5Game(): boolean;
 }
 
 class DebugPlatform implements Platform {
     async getUserInfo() {
         return { nickName: "username" }
     }
-    async login() {
 
+    login(): Promise<any> {
+        return ;
+    }
+
+    getGameVersion(): string {
+        return "local|1|100|dev";
+    }
+
+    isWXGame(): boolean {
+        return false;
+    }
+
+    isH5Game(): boolean {
+        return false;
+    }
+}
+
+class WXGamePlatform implements Platform {
+    async getUserInfo(): Promise<any> {
+        return {};
+    }
+
+    async login(): Promise<any> {
+        return
+    }
+
+    getGameVersion(): string {
+        return "local|1|100|dev";
+    }
+
+    isWXGame(): boolean {
+        return true;
+    }
+
+    isH5Game(): boolean {
+        return false;
     }
 }
 
@@ -25,7 +60,6 @@ class DebugPlatform implements Platform {
 if (!window.platform) {
     window.platform = new DebugPlatform();
 }
-
 
 
 declare let platform: Platform;

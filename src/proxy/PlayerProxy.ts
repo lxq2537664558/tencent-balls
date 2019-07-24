@@ -29,6 +29,24 @@ class PlayerProxy extends puremvc.Proxy {
         this.propertyChangeHandler.add(PlayerProperty.CharId, (charId: string) => {
             this.playerVo.charId = charId;
         })
+        this.propertyChangeHandler.add(PlayerProperty.SporeId, (sporeId: number) => {
+            self.playerVo.sporeId = sporeId;
+        });
+        this.propertyChangeHandler.add(PlayerProperty.HaloId, (haloId: number) => {
+            self.playerVo.haloId = haloId;
+        });
+        this.propertyChangeHandler.add(PlayerProperty.GrowExp, (exp: number) => {
+            self.playerVo.growExp = exp;
+        });
+        this.propertyChangeHandler.add(PlayerProperty.GrowLevel, (level: number) => {
+            const currLevel: number = self.playerVo.growLevel;
+
+            if (currLevel === level) {
+                return;
+            }
+
+            self.playerVo.growLevel = level;
+        });
     }
 
     private onPropertyUpdate(data: any): void {

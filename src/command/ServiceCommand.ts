@@ -9,5 +9,11 @@ class ServiceCommand extends puremvc.SimpleCommand {
     public static readonly InitPlayerInfo: string = "InitPlayerInfo";
 
     public register(): void {
+        this.facade().registerCommand(ServiceCommand.StartLogin, StartLoginCommond);
+        this.facade().registerCommand(ServiceCommand.SocketServerConnect, ConnectServerCommand);
+        this.facade().registerCommand(ServiceCommand.SocketServerEvent, SocketServerEventCommand);
+        this.facade().registerCommand(ServiceCommand.ReqGuestState, GuestStateQueryCommand);
+        this.facade().registerCommand(ServiceCommand.PTLogin, PTLoginReqCommand);
+        this.facade().registerCommand(ServiceCommand.InitPlayerInfo, InitPlayerInfoReqCommand);
     }
 }

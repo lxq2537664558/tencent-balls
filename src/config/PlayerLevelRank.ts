@@ -83,6 +83,6 @@ class PlayerLevelRank {
     }
 
     public getRankIconUrl(level: number): string {
-        return ResourceUtils.getResUrl(URLConst.ASYNC_ASSETS_URL + "Player/player_LV" + level.toString() + ".png");
+        return ResourceUtil.getResUrl(URLConstant.AsyncAssetsUrl + "Player/player_LV" + level.toString() + ".png");
     }
 }

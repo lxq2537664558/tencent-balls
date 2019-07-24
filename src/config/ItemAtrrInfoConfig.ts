@@ -116,7 +116,7 @@ class ItemAttrInfoConfig {
 
     public getItemIconUrl(id: number): string {
         const config: ItemAttrInfo = this.getItemAttrInfo(id);
-        const url: string = URLConst.ASYNC_ASSETS_URL + "item/" + config.icon + ".png";
+        const url: string = URLConstant.AsyncAssetsUrl + "item/" + config.icon + ".png";
 
         return url;
     }

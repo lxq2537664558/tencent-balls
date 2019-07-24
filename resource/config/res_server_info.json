@@ -1,0 +1,44 @@
+{
+	"dev": {
+		"name": "开发服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	},
+	"qa": {
+		"name": "测试服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	},
+	"design": {
+		"name": "策划服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	},
+	"prod": {
+		"name": "产品服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	},
+	"release": {
+		"name": "线上服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	},
+	"test-release": {
+		"name": "外网测试服务器",
+		"hall_host": "wss://test.agent.hlxqh5.qq.com",
+		"battle_host": "wss://test.agent.hlxqh5.qq.com",
+		"area": "901",
+		"login_url": "https://test.agent.hlxqh5.qq.com/901/"
+	}
+}
