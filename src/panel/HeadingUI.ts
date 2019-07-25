@@ -19,7 +19,7 @@ class HeadingUI extends egret.DisplayObjectContainer {
         this.allow = true;
         this.bg_ = new egret.Bitmap();
         this.addChild(this.bg_);
-        this.bg_.touchEnabled = false;
+        this.bg_.touchEnabled = true;
         this.bmp_ = new egret.Bitmap();
         this.addChild(this.bmp_);
         this.main_ = main;
@@ -40,7 +40,7 @@ class HeadingUI extends egret.DisplayObjectContainer {
         this.addChild(this.versionText_);
         this.versionText_.size = 12;
         this.versionText_.textColor = 11184810;
-        this.versionText_.text = "新出网证（粤）字XXX号 著作权人：上海寻逐网络 \n出版单位：上海寻逐网络科技有限公司 批准文号：新广出审〔2019〕XXXX号 \n出版物号：ISBN XXX-X-XXX-XXXXX-X ";
+        this.versionText_.text = "新出网证（粤）字010号 著作权人：腾讯科技（上海）有限公司 \n出版单位：深圳市腾讯计算机系统有限公司 批准文号：新广出审〔2017〕7534号 \n出版物号：ISBN 978-7-498-01923-3 ";
     }
 
     public initAssets(stage: egret.Stage): void {
@@ -88,13 +88,13 @@ class HeadingUI extends egret.DisplayObjectContainer {
         this.protoLab_.x = 450;
         this.protoLab_.y = 410;
         this.addChild(this.protoLab_);
-        this.protoLab_.textFlow = new Array<egret.ITextElement>({
+        this.protoLab_.textFlow = new Array<any>({
             text: "我阅读并同意",
             style: {
                 textColor: 16777215
             }
         }, {
-            text: "游戏用户协议",
+            text: "腾讯游戏用户协议",
             style: {
                 href: "event:t1",
                 underline: !0
@@ -125,6 +125,16 @@ class HeadingUI extends egret.DisplayObjectContainer {
         this.check_.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onCheckTap, this);
         this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
         this.startBtn_.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onStartTap, this);
+        console.log("HeadingUI: ", this.bg_.x, this.bg_.y);
+		console.log("HeadingUI: ", this.bmp_.x, this.bmp_.y);
+		console.log("HeadingUI: ", this.startBtn_.x, this.startBtn_.y);
+		console.log("HeadingUI: ", this.check_.x, this.check_.y);
+		console.log("HeadingUI: ", this.checkBg_.x, this.checkBg_.y);
+		console.log("HeadingUI: ", this.protoLab_.x, this.protoLab_.y);
+		console.log("HeadingUI: ", this.startName_.x, this.startName_.y);
+		console.log("HeadingUI: ", this.waringText_.x, this.waringText_.y);
+		console.log("HeadingUI: ", this.versionText_.x, this.versionText_.y);
+		console.log("HeadingUI: ", this.stage.stageWidth, this.stage.stageHeight);
     }
 
     private onRemoveFromStage(e: egret.Event): void {
