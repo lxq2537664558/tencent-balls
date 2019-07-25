@@ -11,6 +11,12 @@ class GameCommand extends puremvc.SimpleCommand {
     public static readonly ResumeGame: string = "ResumeGame";
     public static readonly SignDataUpdate: string = "SignDataUpdate";
 
+    constructor() {
+        super();
+
+        this.initializeNotifier(GameCommand.NAME);
+    }
+
     public register(): void {
         this.facade().registerCommand(GameCommand.StartGame, StartNewGameCommand);
         this.facade().registerCommand(GameCommand.HallEnterRoom, HallEnterRoomCommand);

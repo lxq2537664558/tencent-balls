@@ -1,3 +1,5 @@
+declare class LoadingSkin extends eui.Skin{
+}
 declare class MainSceneSkin extends eui.Skin{
 }
 declare module skins{

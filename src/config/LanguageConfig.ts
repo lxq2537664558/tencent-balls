@@ -9,7 +9,7 @@ class LanguageConfig {
    private keys_: Array<string>;
 
    constructor() {
-       this.rawJson_ = RES.getRes("res_language_json");
+       this.rawJson_ = RES.getRes("res_languages_json");
        this.languageMap_ = {};
        this.keys_ = Object.keys(this.rawJson_);
    }

@@ -186,8 +186,10 @@ class Main extends eui.UILayer {
     private async runGame() {
         egret.Bitmap.defaultTouchEnabled = false;
         TextTextureCaches.getInstance().init();
-        await platform.login();
-        await platform.login();
+
+        if (!WXSDK.enabled) {
+            ApplicationFacade.getInstance().startup(this);
+        }
     }
 
     private async loadResource() {

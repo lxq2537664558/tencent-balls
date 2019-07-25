@@ -13,14 +13,14 @@ class PlayerProxy extends puremvc.Proxy {
     }
 
     public onRegister(): void {
-        this.propertyUpdateListener_ = new MessageListener(306, "CmdUser_PropertyUpdate_SC", this.onPropertyUpdate);
-        const msgHandler: ReceiveMessageHandler = <ReceiveMessageHandler>(SocketServer.getHallInstance().msgHandler);
-        msgHandler.addMsgListener(this.propertyUpdateListener_);
+        // this.propertyUpdateListener_ = new MessageListener(306, "CmdUser_PropertyUpdate_SC", this.onPropertyUpdate);
+        // const msgHandler: ReceiveMessageHandler = <ReceiveMessageHandler>(SocketServer.getHallInstance().msgHandler);
+        // msgHandler.addMsgListener(this.propertyUpdateListener_);
     }
 
     public onRemove(): void {
-        const msgHandler: ReceiveMessageHandler = <ReceiveMessageHandler>(SocketServer.getHallInstance().msgHandler);
-        msgHandler.removeMsgListener(this.propertyUpdateListener_);
+        // const msgHandler: ReceiveMessageHandler = <ReceiveMessageHandler>(SocketServer.getHallInstance().msgHandler);
+        // msgHandler.removeMsgListener(this.propertyUpdateListener_);
     }
 
     private initHandlers(): void {

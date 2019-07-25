@@ -29,7 +29,7 @@ class ItemAttrInfoConfig {
     private itemAttrInfoMap_: { [key: number]: ItemAttrInfo };
 
     constructor() {
-        this.rawJson_ = JSON.parse(RES.getRes("res_item_attr_json")).ResItemAttr;
+        this.rawJson_ = RES.getRes("res_item_attr_json").ResItemAttr;
         this.itemAttrInfoMap_ = {};
     }
 
